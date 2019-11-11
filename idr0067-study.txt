@@ -1,0 +1,88 @@
+# STUDY DESCRIPTION SECTION																		
+
+Comment[IDR Study Accession]	idr0067																													
+Study Title	Meiotic cellular rejuvenation is coupled to nuclear remodeling in budding yeast																							
+Study Type	time-lapse imaging																																
+Study Type Term Source REF	OMIT																																
+Study Type Term Accession	OMIT_0027490																																
+Study Description	Production of healthy gametes in meiosis relies on the quality control and proper distribution of both nuclear and cytoplasmic contents. Meiotic differentiation naturally eliminates age-induced cellular damage by an unknown mechanism. Using time-lapse fluorescence microscopy in budding yeast, we found that nuclear senescence factors - including protein aggregates, extrachromosomal ribosomal DNA circles, and abnormal nucleolar material - are sequestered away from chromosomes during meiosis II and subsequently eliminated. A similar sequestration and elimination process occurs for the core subunits of the nuclear pore complex in both young and aged cells. Nuclear envelope remodeling drives the formation of a membranous compartment containing the sequestered material. Importantly, de novo generation of plasma membrane is required for the sequestration event, preventing the inheritance of long-lived nucleoporins and senescence factors into the newly formed gametes. Our study uncovers a new mechanism of nuclear quality control and provides insight into its function in meiotic cellular rejuvenation. 																													
+Study Organism	Saccharomyces cerevisiae
+																
+Study Organism Term Source REF	NCBITaxon																																
+Study Organism Term Accession	4932																																
+Study Experiments Number	1
+																										
+Study External URL																																	
+Study Public Release Date																																																											
+# Study Publication																																	
+Study PubMed ID	31397671 																													
+Study Publication Title	Meiotic cellular rejuvenation is coupled to nuclear remodeling in budding yeast																															
+Study Author List	King GA, Goodman JS, Schick JG, Chetlapalli K, Jorgens DM, McDonald KL, Ünal E																															
+Study PMC ID	PMC6711709																																
+Study DOI	https://doi.org/10.7554/eLife.47156																																
+																																	
+# Study Contacts																																	
+Study Person Last Name	Ünal																													
+Study Person First Name	Elçin
+																										
+Study Person Email	elcin@berkeley.edu																																
+Study Person Address	622 Barker Hall, UC-Berkeley, Berkeley, CA, 94720																														
+Study Person ORCID	0000-0002-6768-609X
+																	
+Study Person Roles	submitter																																
+																														
+# Study License and Data DOI																																	
+Study License	CC-BY 4.0																													
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																
+Study Copyright	 King et al.																																
+Study Data Publisher	University of Dundee																																
+Study Data DOI																																																													
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/					
+																																	
+# EXPERIMENT SECTION																																	
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment.																																
+Experiment Number	1
+																															
+Comment[IDR Experiment Name]	idr0067-king-yeastmeiois/experimentA		
+
+
+Experiment Sample Type	cell																														
+Experiment Description	Time-lapse and fixed cell fluorescence microscopy or transmission electron microscopy images depicting budding yeast cells progressing through meiosis. The goal of this study was to characterize nuclear remodeling during budding yeast meiosis, with a focus on determining how various nuclear senescence factors are eliminated.																															
+Experiment Size	5D Images: 		Average Image Dimension (XYZCT):XYZCT		Total Tb: 																												
+Experiment Example Images																																
+Experiment Imaging Method	fluorescence microscopy	transmission electron microscopy	bright-field microscopy 																															
+Experiment Imaging Method Term Source REF	Fbbi																																
+Experiment Imaging Method Term Accession	FBbi_00000246	FBbi_00000258	FBbi_00000243																											
+Experiment Comments																															
+																																	
+# assay files																																	
+Experiment Assay File	idr0067-KingGoodman-experimentA-annotation																															
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions	See Genetic Background column for information on strain background (e.g., WT or deletion).																									
+Assay Experimental Conditions Term Source REF																																	
+Assay Experimental Conditions Term Accession																																	
+Quality Control Description																																
+																																	
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description	
+
+Live cell imaging:
+Images were acquired using a DeltaVision Elite wide-field fluorescence microscope (GE Healthcare). Live cell images were generated using a 60x/1.42 NA oil-immersion objective. Images were deconvolved using softWoRx imaging software (GE Healthcare). Live cells were imaged in an environmental chamber heated to 30°C, using either the CellASIC ONIX Microfluidic Platform (EMD Millipore) or concanavalin A-coated, glass-bottom 96-well plates (Corning). All live imaging experiments used conditioned sporulation media (SPO filter-sterilized after five hours of sporulation at 30°C), as this was found to enhance meiotic progression. With the CellASIC system, cultures in SPO (OD600 = 1.85) were transferred to a microfluidic Y04D plate and were loaded with a pressure of 8 psi for 5 seconds. Conditioned SPO was subsequently applied with a constant flow rate pressure of 2 psi for 15-20 hours.  With the 96-well plates, cells were adhered to the bottom of the wells and 250 μl of conditioned SPO was added to each well. Images were acquired every 15 minutes for 15-18 hours.
+
+Fixed cell imaging:
+Images were acquired using a DeltaVision Elite wide-field fluorescence microscope (GE Healthcare). Fixed cell images were generated using a 100x/1.40 NA oil-immersion objective. Fixed cells were prepared by treating 500-1000 μl of meiotic culture with 3.7% formaldehyde for 15 minutes at room temperature. Cells were permeabilized with either 1% Triton X-100 or 70% ethanol. (1) For Figure 4 – Supplement 1 and 2, cells were washed with 0.1 M potassium phosphate pH 6.4 and subsequently treated with 0.05 μg DAPI and 1% Triton in KPi sorbitol (0.1 M potassium phosphate, 1.2 M sorbitol, pH 7.5). Cells were then immediately washed with KPi sorbitol before imaging. (2) For figures 6A-6B, cells were treated for five minutes with 1% Triton in KPi sorbitol and then resuspended in KPi sorbitol. Cells were then adhered on a poly-lysine treated multi-well slide and mounted with Vectashield Mounting Medium with DAPI (Vector Labs). (3) For figures 5A-5B, 8C-8D, and 8F, cells were washed with 0.1 M potassium phosphate pH 6.4 and then resuspended in KPi sorbitol buffer. Cells were then adhered to a poly-lysine treated multi-well slide, quickly permeabilized with 70% ethanol, and mounted with Vectashield Mounting Medium with DAPI (Vector Labs).
+
+Electron microscopy:
+Yeast cells were concentrated by vacuum filtration onto a nitrocellulose membrane and then scrape-loaded into 50- or 100- µm-deep high pressure freezing planchettes (McDonald and Muller-Reichert, 2002).  Freezing was done in a Bal-Tec HPM-010 high-pressure freezer (Bal-Tec AG).High pressure frozen cells stored in liquid nitrogen were transferred to cryovials containing 1.5 ml of fixative consisting of 1% osmium tetroxide, 0.1% uranyl acetate, and 5% water in acetone at liquid nitrogen temperature (-195˚C) and processed for freeze substitution according to the method of McDonald and Webb (McDonald, 2014; McDonald and Webb, 2011). Briefly, the cryovials containing fixative and cells were transferred to a cooled metal block at -195˚C; the cold block was put into an insulated container such that the vials were horizontally oriented, and shaken on an orbital shaker operating at 125 rpm. After 3 hours the block and cryovials had warmed to 20˚C and were transitioned to resin infiltration. Resin infiltration was accomplished by a modification of the method of McDonald (McDonald, 2014). Briefly, cells were rinsed 4-5 times in pure acetone and infiltrated with Epon-Araldite resin in increasing increments of 25% over 3 hours plus 3 changes of pure resin at 30 minutes each. Cells were removed from the planchettes at the beginning of the infiltration series and spun down at 6,000 x g for 1 minute between solution changes.  The cells in pure resin were placed in between 2 PTFE-coated microscope slides and polymerized over 2 hours in an oven set to 100˚C. Cells were cut out from the thin layer of polymerized resin and remounted on blank resin blocks for sectioning. Serial sections of 70 nm were cut on a Reichert-Jung Ultracut E microtome and picked up on 1 x 2 mm slot grids covered with a 0.6% Formvar film. Sections were post-stained with 1% aqueous uranyl acetate for 10 minutes and lead citrate for 10 minutes (Reynolds, 1963). Images of cells on serial sections were taken on an FEI Tecnai 12 electron microscope operating at 120 kV equipped with a Gatan Ultrascan 1000 CCD camera. 
+
+
+#  Processed Data Files 																														
+Processed Data File Name	idr0067-KingGoodman-experimentA-processed																							
+Processed Data File Format	tab-delimited text																											
+Processed Data File Description	Phenotypes observed and conclusions drawn for each set of images uploaded.																
+Processed Data Column Name	Dataset name = Name of dataset containing images corresponding to conclusions (use this column to link to assay file); Conclusion = primary conclusions (including observations and phenotypes) drawn from a given imaging dataset									
