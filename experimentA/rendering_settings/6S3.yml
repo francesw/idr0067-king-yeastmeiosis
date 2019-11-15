@@ -1,0 +1,12 @@
+---
+channels:
+    1:
+        active: true
+        start: 50
+        end: 500
+    2:
+        active: true
+        start: 50
+        end: 3000
+greyscale: false
+version: 2
