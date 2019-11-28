@@ -1,0 +1,14 @@
+---
+channels:
+    1:
+        active: true
+        color: '808080'
+        end: 23676.0
+        label: POL
+        max: 23676.0
+        min: 856.0
+        start: 856.0
+greyscale: true
+t: 1
+version: 2
+z: 1

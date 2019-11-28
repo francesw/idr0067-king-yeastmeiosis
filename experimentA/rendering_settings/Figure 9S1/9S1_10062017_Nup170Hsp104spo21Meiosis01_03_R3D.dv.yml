@@ -1,0 +1,22 @@
+---
+channels:
+    1:
+        active: true
+        color: FF0000
+        end: 1612.0
+        label: mCherry
+        max: 1612.0
+        min: 45.0
+        start: 45.0
+    2:
+        active: true
+        color: 00FF00
+        end: 809.0
+        label: FITC
+        max: 809.0
+        min: 37.0
+        start: 37.0
+greyscale: false
+t: 1
+version: 2
+z: 5

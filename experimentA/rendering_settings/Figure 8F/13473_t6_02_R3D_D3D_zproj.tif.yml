@@ -1,0 +1,30 @@
+---
+channels:
+    1:
+        active: true
+        color: FF0000
+        end: 1852.0
+        label: '0'
+        max: 1852.0
+        min: 4.0
+        start: 4.0
+    2:
+        active: true
+        color: 00FF00
+        end: 41805.0
+        label: '1'
+        max: 41805.0
+        min: 1.0
+        start: 1.0
+    3:
+        active: true
+        color: 0000FF
+        end: 32173.0
+        label: '2'
+        max: 32173.0
+        min: 6.0
+        start: 6.0
+greyscale: false
+t: 1
+version: 2
+z: 1

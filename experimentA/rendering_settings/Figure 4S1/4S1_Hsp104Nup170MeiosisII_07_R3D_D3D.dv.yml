@@ -1,0 +1,30 @@
+---
+channels:
+    1:
+        active: true
+        color: 0000FF
+        end: 11799.0
+        label: DAPI
+        max: 11799.0
+        min: 0.0
+        start: 0.0
+    2:
+        active: true
+        color: 00FF00
+        end: 22167.0
+        label: FITC
+        max: 22167.0
+        min: 0.0
+        start: 0.0
+    3:
+        active: true
+        color: FF0000
+        end: 2470.0
+        label: mCherry
+        max: 2470.0
+        min: 2.0
+        start: 2.0
+greyscale: false
+t: 1
+version: 2
+z: 26
