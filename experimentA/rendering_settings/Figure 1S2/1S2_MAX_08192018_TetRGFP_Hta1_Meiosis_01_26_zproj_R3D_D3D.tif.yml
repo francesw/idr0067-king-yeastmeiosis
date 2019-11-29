@@ -3,19 +3,15 @@ channels:
     1:
         active: true
         color: FF0000
-        end: 42068.0
-        label: '0'
-        max: 42068.0
-        min: 55.0
-        start: 55.0
+        end: 5000.0
+        label: Hta1
+        start: 0.0
     2:
         active: true
         color: 00FF00
-        end: 1064.0
-        label: '1'
-        max: 1064.0
-        min: 85.0
-        start: 85.0
+        end: 500.0
+        label: TetR
+        start: 100.0
 greyscale: false
 t: 1
 version: 2
