@@ -3,19 +3,15 @@ channels:
     1:
         active: true
         color: FF0000
-        end: 23591.0
-        label: '0'
-        max: 23591.0
-        min: 53.0
-        start: 53.0
+        end: 12500.0
+        label: Htb1
+        start: 0.0
     2:
         active: true
         color: 00FF00
-        end: 24621.0
-        label: '1'
-        max: 24621.0
-        min: 82.0
-        start: 82.0
+        end: 8000.0
+        label: Nsr1
+        start: 0.0
 greyscale: false
 t: 1
 version: 2
