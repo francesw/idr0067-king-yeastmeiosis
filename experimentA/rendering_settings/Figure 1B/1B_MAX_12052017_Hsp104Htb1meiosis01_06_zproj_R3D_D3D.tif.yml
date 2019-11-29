@@ -4,13 +4,13 @@ channels:
         active: true
         color: FF0000
         end: 3100.0
-        label: Hsp104
+        label: Htb1
         start: 0.0
     2:
         active: true
         color: 00FF00
         end: 4800.0
-        label: Htb1
+        label: Hsp104
         start: 0.0
 greyscale: false
 t: 1
