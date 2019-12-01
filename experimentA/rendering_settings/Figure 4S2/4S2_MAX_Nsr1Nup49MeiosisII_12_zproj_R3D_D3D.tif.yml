@@ -2,28 +2,22 @@
 channels:
     1:
         active: true
-        color: FF0000
-        end: 23410.0
-        label: '0'
-        max: 23410.0
-        min: 158.0
-        start: 158.0
+        color: 0000FF
+        end: 32500.0
+        label: DAPI
+        start: 0.0
     2:
         active: true
         color: 00FF00
-        end: 36593.0
-        label: '1'
-        max: 36593.0
-        min: 132.0
-        start: 132.0
+        end: 5500.0
+        label: Nsr1
+        start: 0.0
     3:
         active: true
-        color: 0000FF
-        end: 5048.0
-        label: '2'
-        max: 5048.0
-        min: 83.0
-        start: 83.0
+        color: FF0000
+        end: 450.0
+        label: Nup49
+        start: 100.0
 greyscale: false
 t: 1
 version: 2
