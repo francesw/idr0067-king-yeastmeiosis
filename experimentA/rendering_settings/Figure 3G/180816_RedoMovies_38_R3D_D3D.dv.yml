@@ -3,19 +3,15 @@ channels:
     1:
         active: true
         color: FF0000
-        end: 11262.0
-        label: mCherry
-        max: 11262.0
-        min: 0.0
+        end: 3000.0
+        label: Htb1
         start: 0.0
     2:
         active: true
         color: 00FF00
-        end: 1547.0
-        label: FITC
-        max: 1547.0
-        min: 6.0
-        start: 6.0
+        end: 550.0
+        label: Nup2
+        start: 100.0
 greyscale: false
 t: 1
 version: 2
