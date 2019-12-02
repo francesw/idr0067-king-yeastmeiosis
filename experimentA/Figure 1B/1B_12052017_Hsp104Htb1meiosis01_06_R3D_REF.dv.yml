@@ -4,7 +4,7 @@ channels:
         active: true
         color: '808080'
         end: 25281.0
-        label: POL
+        label: Bright-field
         max: 25281.0
         min: 721.0
         start: 721.0
