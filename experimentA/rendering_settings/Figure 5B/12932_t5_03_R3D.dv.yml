@@ -3,27 +3,21 @@ channels:
     1:
         active: true
         color: FF0000
-        end: 736.0
-        label: mCherry
-        max: 736.0
-        min: 75.0
-        start: 75.0
+        end: 500.0
+        label: Nup49
+        start: 100.0
     2:
         active: true
         color: 00FF00
-        end: 1649.0
-        label: FITC
-        max: 1649.0
-        min: 179.0
-        start: 179.0
+        end: 1500.0
+        label: eGFP-h2NLS-L-TM
+        start: 250.0
     3:
         active: true
         color: 0000FF
-        end: 14067.0
+        end: 10000.0
         label: DAPI
-        max: 14067.0
-        min: 355.0
-        start: 355.0
+        start: 0.0
 greyscale: false
 t: 1
 version: 2
