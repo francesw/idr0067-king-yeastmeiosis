@@ -30,8 +30,14 @@ columns:
   - name: Comment [Genetic Background Identifier]
     clientname: Genetic Background Identifier
     include: yes
+  - name: Comment [Construct/Marker] 1
+    clientname: Construct/Marker
+    include: yes
   - name: Experimental Condition [Imaging Type]
     clientname: Imaging Type
+    include: yes
+  - name: Comment [Channels]
+    clientname: Channels
     include: yes
   - name: Comment [Image File Type]
     clientname: Image File Type
@@ -57,6 +63,10 @@ columns:
         - name: Comment [Gene Identifier] 1
           clientname: Gene Identifier
           include: yes
+        - name: Comment [Gene Identifier] 1
+          clientname: Gene Identifier URL
+          clientvalue: http://www.yeastgenome.org/locus/{{ value|urlencode }}
+          include: yes
         - name: Comment [Gene Symbol] 1
           clientname: Gene Symbol
           include: yes
@@ -65,6 +75,10 @@ columns:
       columns:
         - name: Comment [Gene Identifier] 2
           clientname: Gene Identifier
+          include: yes
+        - name: Comment [Gene Identifier] 2
+          clientname: Gene Identifier URL
+          clientvalue: http://www.yeastgenome.org/locus/{{ value|urlencode }}
           include: yes
         - name: Comment [Gene Symbol] 2
           clientname: Gene Symbol
@@ -75,6 +89,20 @@ columns:
       columns:
         - name: Characteristics [Cell Line]
           clientname: Cell Line
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/protein
+      columns:
+        - name: Comment [Protein] 1
+          clientname: Protein
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/protein
+      columns:
+        - name: Comment [Protein] 2
+          clientname: Protein
           include: yes
 
 advanced:
@@ -90,3 +118,6 @@ advanced:
     - namespace: openmicroscopy.org/mapr/cell_line
       keys:
         - Cell Line
+    - namespace: openmicroscopy.org/mapr/protein
+      keys:
+        - Protein
