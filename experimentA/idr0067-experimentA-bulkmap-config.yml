@@ -65,7 +65,8 @@ columns:
           include: yes
         - name: Comment [Gene Identifier] 1
           clientname: Gene Identifier URL
-          clientvalue: http://www.yeastgenome.org/locus/{{ value|urlencode }}
+          clientvalue: >
+            http://www.yeastgenome.org/locus/{{ value|urlencode }}/overview
           include: yes
         - name: Comment [Gene Symbol] 1
           clientname: Gene Symbol
@@ -78,7 +79,8 @@ columns:
           include: yes
         - name: Comment [Gene Identifier] 2
           clientname: Gene Identifier URL
-          clientvalue: http://www.yeastgenome.org/locus/{{ value|urlencode }}
+          clientvalue: >
+            http://www.yeastgenome.org/locus/{{ value|urlencode }}/overview
           include: yes
         - name: Comment [Gene Symbol] 2
           clientname: Gene Symbol
