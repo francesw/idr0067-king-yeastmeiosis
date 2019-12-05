@@ -30,13 +30,13 @@ columns:
   - name: Comment [Genetic Background Identifier]
     clientname: Genetic Background Identifier
     include: yes
-  - name: Comment [Construct/Marker] 1
+  - name: Comment [Construct\Marker] 1
     clientname: Construct/Marker
     include: yes
   - name: Experimental Condition [Imaging Type]
     clientname: Imaging Type
     include: yes
-  - name: Comment [Channels]
+  - name: Channels
     clientname: Channels
     include: yes
   - name: Comment [Image File Type]
