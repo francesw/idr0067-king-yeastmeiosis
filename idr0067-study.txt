@@ -9,7 +9,7 @@ Study Description	Production of healthy gametes in meiosis relies on the quality
 
 
 
-Study Key Words	meiosis												
+Study Key Words	meiosis	nuclear pore complex	nucleoporin	nuclear senescence factor	time-lapse fluorescence microscopy											
 																
 Study Organism	Saccharomyces cerevisiae
 		
