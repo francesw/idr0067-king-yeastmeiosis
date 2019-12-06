@@ -5,14 +5,25 @@ Study Title	Meiotic cellular rejuvenation is coupled to nuclear remodeling in bu
 Study Type	time-lapse imaging																																
 Study Type Term Source REF	OMIT																																
 Study Type Term Accession	OMIT_0027490																																
-Study Description	Production of healthy gametes in meiosis relies on the quality control and proper distribution of both nuclear and cytoplasmic contents. Meiotic differentiation naturally eliminates age-induced cellular damage by an unknown mechanism. Using time-lapse fluorescence microscopy in budding yeast, we found that nuclear senescence factors - including protein aggregates, extrachromosomal ribosomal DNA circles, and abnormal nucleolar material - are sequestered away from chromosomes during meiosis II and subsequently eliminated. A similar sequestration and elimination process occurs for the core subunits of the nuclear pore complex in both young and aged cells. Nuclear envelope remodeling drives the formation of a membranous compartment containing the sequestered material. Importantly, de novo generation of plasma membrane is required for the sequestration event, preventing the inheritance of long-lived nucleoporins and senescence factors into the newly formed gametes. Our study uncovers a new mechanism of nuclear quality control and provides insight into its function in meiotic cellular rejuvenation. 																													
-Study Organism	Saccharomyces cerevisiae
+Study Description	Production of healthy gametes in meiosis relies on the quality control and proper distribution of both nuclear and cytoplasmic contents. Meiotic differentiation naturally eliminates age-induced cellular damage by an unknown mechanism. Using time-lapse fluorescence microscopy in budding yeast, we found that nuclear senescence factors - including protein aggregates, extrachromosomal ribosomal DNA circles, and abnormal nucleolar material - are sequestered away from chromosomes during meiosis II and subsequently eliminated. A similar sequestration and elimination process occurs for the core subunits of the nuclear pore complex in both young and aged cells. Nuclear envelope remodeling drives the formation of a membranous compartment containing the sequestered material. Importantly, de novo generation of plasma membrane is required for the sequestration event, preventing the inheritance of long-lived nucleoporins and senescence factors into the newly formed gametes. Our study uncovers a new mechanism of nuclear quality control and provides insight into its function in meiotic cellular rejuvenation. 	
+
+
+
+Study Key Words	meiosis												
 																
+Study Organism	Saccharomyces cerevisiae
+		
+														
 Study Organism Term Source REF	NCBITaxon																																
 Study Organism Term Accession	4932																																
 Study Experiments Number	1
 																										
-Study External URL																																	
+Study External URL
+	
+
+
+Study BioStudies Accession	
+																													
 Study Public Release Date	2019-12-10																																																										
 # Study Publication																																	
 Study PubMed ID	31397671 																													
