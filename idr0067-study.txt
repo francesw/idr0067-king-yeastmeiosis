@@ -13,7 +13,7 @@ Study Organism Term Accession	4932
 Study Experiments Number	1
 																										
 Study External URL																																	
-Study Public Release Date																																																											
+Study Public Release Date	2019-12-10																																																										
 # Study Publication																																	
 Study PubMed ID	31397671 																													
 Study Publication Title	Meiotic cellular rejuvenation is coupled to nuclear remodeling in budding yeast																															
@@ -65,8 +65,8 @@ Assay Experimental Conditions Term Accession
 Quality Control Description																																
 																																	
 # Protocols																																	
-Protocol Name	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol																													
-Protocol Type	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol																													
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
 Protocol Type Term Source REF	EFO	EFO																															
 Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
 Protocol Description	
