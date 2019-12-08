@@ -10,7 +10,7 @@ channels:
         active: true
         color: 00FF00
         end: 1500.0
-        label: eGFP-h2NLS-L-TM
+        label: h2NLS-L-TM
         start: 250.0
     3:
         active: true
