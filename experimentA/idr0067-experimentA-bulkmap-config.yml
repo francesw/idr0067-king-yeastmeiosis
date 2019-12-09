@@ -4,7 +4,7 @@ version: 1
 
 defaults:
   # Should the column be processed when creating bulk-annotations (yes/no)
-  include: no
+  include: false
   # Columns type of the bulk-annotations column
   type: string
 
@@ -12,39 +12,39 @@ defaults:
   # White space will be stripped
   split: ;
   # Should this column be included in the clients (yes/no)
-  includeclient: yes
+  includeclient: true
   # Should this column be visible in the clients, if no the column should be
   # hidden in the client but will still be indexed by the searcher (yes/no)
-  visible: yes
+  visible: true
   # Should empty values be omitted from the client display
-  omitempty: yes
+  omitempty: true
 
 columns:
 
   - name: Protocol
     clientname: Protocol
-    include: yes
+    include: true
   - name: Comment [Genetic Background]
     clientname: Genetic Background
-    include: yes
+    include: true
   - name: Comment [Genetic Background Identifier]
     clientname: Genetic Background Identifier
-    include: yes
+    include: true
   - name: Comment [Construct\Marker] 1
     clientname: Construct/Marker
-    include: yes
+    include: true
   - name: Experimental Condition [Imaging Type]
     clientname: Imaging Type
-    include: yes
+    include: true
   - name: Channels
     clientname: Channels
-    include: yes
+    include: true
   - name: Comment [Image File Type]
     clientname: Image File Type
-    include: yes
+    include: true
   - name: Comment [Experimental Conclusion]
     clientname: Experimental Conclusion
-    include: yes
+    include: true
 
   ######################################################################
   # mapr groups
@@ -55,60 +55,60 @@ columns:
       columns:
         - name: Characteristics [Organism]
           clientname: Organism
-          include: yes
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/gene
       columns:
         - name: Comment [Gene Identifier] 1
           clientname: Gene Identifier
-          include: yes
+          include: true
         - name: Comment [Gene Identifier] 1
           clientname: Gene Identifier URL
           clientvalue: >
             http://www.yeastgenome.org/locus/{{ value|urlencode }}/overview
-          include: yes
+          include: true
         - name: Comment [Gene Symbol] 1
           clientname: Gene Symbol
-          include: yes
+          include: true
   - group:
       namespace: openmicroscopy.org/mapr/gene
       columns:
         - name: Comment [Gene Identifier] 2
           clientname: Gene Identifier
-          include: yes
+          include: true
         - name: Comment [Gene Identifier] 2
           clientname: Gene Identifier URL
           clientvalue: >
             http://www.yeastgenome.org/locus/{{ value|urlencode }}/overview
-          include: yes
+          include: true
         - name: Comment [Gene Symbol] 2
           clientname: Gene Symbol
-          include: yes
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/cell_line
       columns:
         - name: Characteristics [Cell Line]
           clientname: Cell Line
-          include: yes
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/protein
       columns:
         - name: Comment [Protein] 1
           clientname: Protein
-          include: yes
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/protein
       columns:
         - name: Comment [Protein] 2
           clientname: Protein
-          include: yes
+          include: true
 
 advanced:
-  ignore_missing_primary_key: yes
+  ignore_missing_primary_key: true
   primary_group_keys:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
