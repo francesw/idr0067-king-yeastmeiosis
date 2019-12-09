@@ -22,7 +22,7 @@ Study External URL
 	
 
 
-Study BioStudies Accession	
+Study BioImage Archive Accession	
 																													
 Study Public Release Date	2019-12-10																																																										
 # Study Publication																																	
